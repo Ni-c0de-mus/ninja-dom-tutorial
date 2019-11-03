@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti|Capriola|Contrail+One|Duru+Sans|Freckle+Face|Krub|Manjari|Niramit|Palanquin+Dark|Pangolin&display=swap');
+
+*,
+*::before,
+*::after {
+ margin: 0;
+ padding: 0;
+ box-sizing: inherit;
+}
+
+:root {
+ --dark-gunmetal: #202030;
+    --trolley-grey: #7E8287;
+    --russet: #854D27;
+    --carrot-orange: #DD7230;
+    --still-d-grain: #F4C95D;
+    --ryb-blue: #004FFF;
+
+    --red-black: #000;
+    --tomato: #F06543;
+    --shiny-shamrock: #5FAD56;
+    --pineapple: #5C415D;
+    --licorice: #1C110A;
+    --antique-fuchsia: #995D81;
+    --prune: #6E0D25;
+    --dark-purple: #320A28;
+    --deep-ruby: #734B5E;
+    --m-vermillion: #D5573B;
+    --silver: #BFBDC1;
+    --raisin-black: #271F30;
+    --midnight-green: #114B5F;
+    --flame: #E4572E;
+    --french-blue: #0267C1;
+    --d-terracotta: #DB5461;
+    --smokey-black: #0A100D;
+    --deep-koamaru: #2B4162;
+    --tumbleweed: #D8A47F;
+    --japanese-indigo: #233D4D;
+    --tangelo: #FFAC81;
+    --alabaster: #EAF2E3;
+    --copper-penny: #B2675E;
+    --dark-gunmetal: #202030;
+    --dark-jungle: #14281D;
+    --mid-red-purple: #161032;
+    --leather-green: #283618;
+    --tart-orange: #FE4A49;
+    --jet: #34344A;
+    --light-salmon: #FAA275;
+    --vivid-orange: #F0A202;
+    --trolley-grey: #7E8287;
+    --zinnwaldite: #251605;
+    --prussian-blue: #003049;
+    --dark-scarlet: #650D1B;
+    --deer: #BB9457;
+    --burgundy: #710627;
+    --jelly-bean: #DE6B48;
+    --persian-orange: #DE9151;
+    --max-red: #DE1A1A;
+    --steel-teal: #628395;
+    --bright-navy-blue: #2D7DD2;
+    --feldgrau: #4C5B5C;
+    --bdazzled-blue: #26547C;
+    --onyx: #31393C;
+
+    /* Fonts */
+
+    --staatliches: 'Staatliches', cursive;
+    --montserrat: 'Montserrat', sans-serif;
+    --saira-cond: 'Saira Condensed', sans-serif;
+    --zcool-xiawei: 'ZCOOL XiaoWei', serif;
+    --muli: 'Muli', sans-serif;
+    --titillium: 'Titillium Web', sans-serif;
+    --fira-sans: 'Fira Sans', sans-serif;
+    --fira-code: 'Fira Code', monospace;
+    --nanum-gothic: 'Nanum Gothic', sans-serif;
+    --arimo: 'Arimo', sans-serif;
+    --inconsolata: 'Inconsolata', monospace;
+    --heebo: 'Heebo', sans-serif;
+    --oxygen: 'Oxygen', sans-serif;
+    --josefin-cans: 'Josefin Sans', sans-serif;
+    --karla: 'Karla', sans-serif;
+    --source-code: 'Source Code Pro', monospace;
+    --abel: 'Abel', sans-serif;
+}
+
+html {
+ font-size: 10px;
+ box-sizing: border-box;
+}
+
+a {
+ text-decoration: none;
+}
+
+ul {
+ list-style: none;
+}
+
+img {
+ width: 100%;
+ max-width: 100%;
+ height: auto;
+}
+
+.btn {
+
+}
+
+.btn:hover {
+
+}
+
+section {
+ padding: 5rem 0;
+}
+
+body {
+ background: var(--flame);
+ font-size: 1.6rem;
+}
+
+/* Header */
+
+header {
+ width: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 1;
+}
+
+nav {
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 1rem 0;
+}
+
+.container {
+ width: 100%;
+ max-width: 98rem;
+ padding: 0 1.5rem;
+ margin: 0 auto;
+}
+
+.menu__icons {
+ font-size: 3.5rem;
+ color: var(--french-blue);
+ cursor: pointer;
+}
+
+.close i {
+ color: var(--flame);
+}
+
+.nav__brand {
+ width: 15rem;
+}
+
+.nav__list {
+ width: 25rem;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ right: -26rem;
+ background: var(--french-blue);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ transition: all 650ms ease-in-out;
+ z-index: 1500;
+}
+
+.nav__list.active {
+ right: 0;
+}
+
+.close {
+ position: absolute;
+ top: 2rem;
+ left: 2rem;
+}
+
+.nav__item {
+ margin: 1.5rem 0;
+}
+
+.nav__link {
+ font-size: 2rem;
+ letter-spacing: .2rem;
+ color: var(--flame);
+}
+
